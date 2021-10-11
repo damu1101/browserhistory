@@ -1,0 +1,50 @@
+.appContainer {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  min-height: 100vh;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.navBar {
+  background-color: #3367d6;
+  height: 60px;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  background-size: cover;
+}
+.searchIcon {
+  background-color: #475569;
+  height: 35px;
+  display: flex;
+  box-shadow: 0px 4px 16px 0px #475569;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.inputBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.inp {
+  background-color: #475569;
+  min-width: 300px;
+  outline: none;
+  margin-left: 5px;
+  box-shadow: 0px 4px 16px 0px #475569;
+  border-radius: 5px;
+}
+.hImg {
+  margin-left: 10px;
+}
+
+.unList {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #475569;
+  margin: 20px;
+  padding-top: 20px;
+}
